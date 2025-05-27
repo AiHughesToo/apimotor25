@@ -85,7 +85,6 @@ GEM
     bootsnap (1.18.6)
       msgpack (~> 1.2)
     builder (3.3.0)
-    cgi (0.4.2)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
     crass (1.0.6)
@@ -100,8 +99,7 @@ GEM
       responders
       warden (~> 1.2.3)
     drb (2.2.3)
-    erb (4.0.4)
-      cgi (>= 0.3.3)
+    erb (5.0.1)
     error_highlight (0.7.0)
     erubi (1.13.1)
     globalid (1.2.1)
@@ -224,17 +222,15 @@ GEM
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.3)
 
 PLATFORMS
-  aarch64-linux
   aarch64-linux-gnu
   aarch64-linux-musl
   arm-linux-gnu
   arm-linux-musl
   arm64-darwin
   x86_64-darwin
-  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -250,7 +246,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.3.0p0
 
 BUNDLED WITH
-   2.6.9
+   2.5.3
