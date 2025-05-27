@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  note: MyText
+  taken: false
+  user_complete: false
+  rider_complete: false
+  user: one
+  rider_id: 1
+  latitude: 1.5
+  longitude: 1.5
+  rider_lat: 1.5
+  rider_long: 1.5
+  rider_name: MyString
+
+two:
+  title: MyString
+  note: MyText
+  taken: false
+  user_complete: false
+  rider_complete: false
+  user: two
+  rider_id: 1
+  latitude: 1.5
+  longitude: 1.5
+  rider_lat: 1.5
+  rider_long: 1.5
+  rider_name: MyString
